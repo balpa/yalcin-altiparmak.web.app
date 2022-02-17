@@ -1,0 +1,257 @@
+@media only screen and (max-width: 300px) {
+  #name {
+    font-size: 30px !important;
+  }
+}
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(220, 20, 60, 0.829);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower-body {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+  background-color: rgba(220, 20, 60, 0.829);
+  border-radius: 15px;
+}
+.home-lower-body {
+  margin-top: 10px;
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(220, 20, 60, 0.829);
+  border-radius: 15px;
+}
+.media-lower-body {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+  background-color: rgba(220, 20, 60, 0.829);
+  border-radius: 15px;
+}
+
+#name {
+  color: wheat;
+  font-size: max(3.5vw, 40px);
+  font-family: "Lobster", cursive;
+  transition: 1s;
+}
+#name:hover {
+  text-shadow: 0px 0px 7px wheat;
+}
+
+.menus {
+  margin-top: 10px;
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(0, 100, 100);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home,
+.info,
+.media,
+.contact,
+.gallery {
+  width: auto;
+  height: auto;
+  color: wheat;
+  text-align: center;
+  font-size: max(2vw, 25px);
+  white-space: nowrap;
+  border-radius: 15px;
+  font-family: "Lobster", cursive;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 450px) {
+  .home,
+  .info,
+  .media,
+  .contact,
+  .gallery {
+    font-size: 15px !important;
+  }
+}
+.home:hover,
+.info:hover,
+.media:hover,
+.contact:hover,
+.gallery:hover {
+  color: rgba(220, 20, 60, 1);
+  cursor: pointer;
+  text-shadow: 0px 0px 10px black;
+}
+.gallery-content {
+  position: relative;
+  padding-top: 10px;
+  height: auto;
+  min-height: 90vh;
+  background-color: rgba(0, 0, 0, 0.157);
+  border-radius: 15px;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.info-content {
+  position: relative;
+  height: auto;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.157);
+  border-radius: 15px;
+}
+.media-content {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  height: auto;
+  min-height: 90vh;
+  background-color: rgba(0, 0, 0, 0.157);
+
+  border-radius: 15px;
+}
+.contact-content {
+  position: relative;
+  height: auto;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.157);
+  border-radius: 15px;
+}
+
+.home-content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.957);
+  border-radius: 15px;
+  background-image: url("./Assets/babamabbkonser.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  background-size: 100%;
+  transition: 2s;
+}
+#biyografi,
+#iletisim {
+  color: #f5deb3;
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  text-decoration: underline;
+}
+#biyografi-yazi {
+  color: wheat;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+#iletisim-yazi-mail {
+  color: wheat;
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  word-break: break-all;
+  white-space: normal;
+}
+
+#home-photo {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 15%;
+  border-radius: 15px;
+  opacity: 0.6;
+  filter: blur(1px);
+}
+
+#yt-text {
+  text-align: center;
+  color: wheat;
+  font-size: max(3vw, 25px);
+  font-family: "Lobster", cursive;
+  text-decoration: underline;
+}
+#home-social-text {
+  text-align: center;
+  color: wheat;
+  font-size: max(3vw, 25px);
+  font-family: "Lobster", cursive;
+}
+.yt-content {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#yt-video {
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 100%;
+  transition: 1s;
+}
+#yt-video:hover {
+  transform: scale(1.05);
+}
+
+#email {
+  color: wheat;
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+
+#balpa {
+  color: wheat;
+  font-size: 15px;
+  height: auto;
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+.footer {
+  height: 2%;
+  width: 100%;
+}
+
+.socialmedia {
+  width: auto;
+  height: auto;
+  padding-top: 30px;
+
+  transition: 1s;
+}
+.socialmedia:hover {
+  text-shadow: 0px 0px 5px wheat;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: rgba(245, 222, 179, 1);
+  transform: scale(1.2);
+}
+
+.social-holder {
+  position: relative;
+  bottom: 60vh;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  transition: 2s;
+}
+.social-holder:hover {
+  background-color: rgba(0, 100, 100, 0.829);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.929);
+}
+
+a {
+  text-decoration: none;
+}
