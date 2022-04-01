@@ -3,7 +3,7 @@
   <a href="http://yalcin-altiparmak.web.app" target="_blank">yalcin-altiparmak.web.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/Screenshot 2022-04-01 at 17.03.57.png" />
+  <img alt="Demo" src="./Images/Screenshot 2022-04-01 at 17.04.29.png" />
 </div>
 
 <br/>
